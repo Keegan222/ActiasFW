@@ -1,0 +1,12 @@
+# Visual Studio 2022 files
+.vs/
+# C++ build files
+*.obj
+*.tlog
+*.log
+*.recipe
+*.ilk
+*.idb
+*.pdb
+*.iobj
+*.ipdb
