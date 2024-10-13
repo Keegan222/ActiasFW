@@ -71,14 +71,14 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)..\..\lib\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)..\..\bin\$(Platform)\$(Configuration)\</OutDir>
     <IncludePath>$(SolutionDir)..\..\include\TestDriver;$(SolutionDir)..\..\include;$(SolutionDir)..\..\vendor\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)..\..\lib\$(Platform)\$(Configuration);$(SolutionDir)..\..\vendor\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)..\..\bin\$(Platform)\$(Configuration);$(SolutionDir)..\..\vendor\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)..\..\lib\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)..\..\bin\$(Platform)\$(Configuration)\</OutDir>
     <IncludePath>$(SolutionDir)..\..\include\TestDriver;$(SolutionDir)..\..\include;$(SolutionDir)..\..\vendor\include;$(IncludePath)</IncludePath>
-    <LibraryPath>$(SolutionDir)..\..\lib\$(Platform)\$(Configuration);$(SolutionDir)..\..\vendor\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath>$(SolutionDir)..\..\bin\$(Platform)\$(Configuration);$(SolutionDir)..\..\vendor\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>

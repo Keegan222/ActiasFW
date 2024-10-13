@@ -71,12 +71,12 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>$(SolutionDir)..\..\lib\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)..\..\bin\$(Platform)\$(Configuration)\</OutDir>
     <IncludePath>$(SolutionDir)..\..\include\ActiasFW;$(SolutionDir)..\..\vendor\include;$(IncludePath)</IncludePath>
     <TargetName>$(ProjectName)-$(Configuration)</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>$(SolutionDir)..\..\lib\$(Platform)\$(Configuration)\</OutDir>
+    <OutDir>$(SolutionDir)..\..\bin\$(Platform)\$(Configuration)\</OutDir>
     <IncludePath>$(SolutionDir)..\..\include\ActiasFW;$(SolutionDir)..\..\vendor\include;$(IncludePath)</IncludePath>
     <TargetName>$(ProjectName)-$(Configuration)</TargetName>
   </PropertyGroup>
